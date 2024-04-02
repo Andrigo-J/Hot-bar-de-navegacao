@@ -28,7 +28,14 @@ header > p{
 }
 
 nav{
-    background-image: linear-gradient(transparent, var(--cor2));
     text-align: center;
+}
 
+nav, a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > ul > li{
+   display: inline;
 }

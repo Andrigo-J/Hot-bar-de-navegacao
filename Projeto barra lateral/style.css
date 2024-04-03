@@ -61,6 +61,18 @@ nav > ul > li:hover{
     text-decoration: underline;
 }
 
+#navbar{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #435257;
+    border-radius: 100%;
+    transition: 2s ease-in-out;
+
+    right: 41px;
+    top: 120px;
+}
+
 main{
     background-color: white;
     border-radius: 0px 0px 10px 10px;
